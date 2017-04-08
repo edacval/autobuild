@@ -1,0 +1,30 @@
+pkgname=google-chrome
+pkgver=57.0.2987.133
+pkgrel=1
+pkgdesc="An attempt at creating a safer, faster, and more stable browser (Stable Channel)"
+arch=('x86_64')
+url="https://www.google.com/chrome"
+license=('custom:chrome')
+depends=('alsa-lib' 'gconf' 'gtk2' 'libxss' 'libxtst' 'nss' 'ttf-liberation')
+options=('!emptydirs' '!strip')
+install="${pkgname}.install"
+source=("google-chrome-stable_${pkgver}_amd64.deb::https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+        "$url/browser/privacy/eula_text.html"
+        'google-chrome-stable.sh')
+md5sums=('52a4341475511d3627a86a344c0831ce'
+         'd50d8f0a6940791eabc41c4f64e6a3cf'
+         '99fa93d5e7fb5d622cef0f9621f3ffa3')
+
+package() {
+  bsdtar -xf data.tar.xz -C "$pkgdir/"
+  gzip "$pkgdir"/usr/share/man/man1/google-chrome.1
+
+  install -D -m755 google-chrome-stable.sh "$pkgdir"/usr/bin/google-chrome-stable
+  install -D -m644 "$pkgdir"/opt/google/chrome/product_logo_256.png "$pkgdir"/usr/share/pixmaps/google-chrome.png
+  install -D -m644 eula_text.html "$pkgdir"/usr/share/licenses/google-chrome/eula_text.html
+
+  sed -i "/Exec=/i\StartupWMClass=Google-chrome" "$pkgdir"/usr/share/applications/google-chrome.desktop
+
+  rm -r `find "$pkgdir" -name "cron*" -type d`
+  rm `find "$pkgdir" -name "product_logo_*.png" -type f`
+}

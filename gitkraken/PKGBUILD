@@ -1,0 +1,34 @@
+pkgname=gitkraken
+pkgrel=1
+pkgver=2.3.3
+pkgdesc="The intuitive, fast, and beautiful cross-platform Git client."
+url="http://www.gitkraken.com/"
+provides=('gitkraken')
+arch=('x86_64')
+license=('custom')
+depends=('gtk2' 'nss' 'libnotify' 'libxtst' 'libgnome-keyring' 'gconf' 'alsa-lib' 'libcurl-compat')
+source=(
+    "https://release.gitkraken.com/linux/v${pkgver}.tar.gz"
+    "gitkraken.desktop"
+    "gitkraken.svg"
+    "eula.html"
+    "gitkraken.sh"
+)
+md5sums=('5694fc24d6c0678156baafd815d60b16'
+         '769f3101718f773e0a3c9d783d9ed3ce'
+         '3ea4fd82d5d4b79031dd80feb5c6377d'
+         'e9ba6663e5f1f92cae31beb0074e8c6c'
+         '99675f1469b151b4b44fefb680fa4aef')
+
+package() {
+    install -d "$pkgdir"/opt
+    cp -R "$srcdir"/gitkraken "$pkgdir"/opt/gitkraken
+
+    find "$pkgdir"/opt/gitkraken/ -type f -exec chmod 644 {} \;
+    chmod 755 "$pkgdir"/opt/gitkraken/gitkraken
+
+    install -D -m644 "./eula.html" "${pkgdir}/usr/share/licenses/${pkgname}/eula.html"
+    install -D -m644 "./gitkraken.desktop" "${pkgdir}/usr/share/applications/gitkraken.desktop"
+    install -D -m644 "./gitkraken.svg" "${pkgdir}/usr/share/pixmaps/gitkraken.svg"
+    install -D -m755 "./gitkraken.sh" "${pkgdir}/opt/gitkraken/gitkraken.sh"
+}

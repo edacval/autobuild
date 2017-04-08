@@ -1,0 +1,17 @@
+post_install() {
+  systemd-tmpfiles --create sickrage.conf
+  chown -R 1000:1000 /opt/sickrage
+}
+
+post_upgrade() {
+  post_install $1
+}
+
+pre_remove() {
+  systemctl stop sickrage.service
+}
+
+post_remove() {
+  rm -rf /opt/sickrage/code
+  echo "==> Some files in /opt/sickrage may not have been removed."
+}

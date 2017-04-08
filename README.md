@@ -1,2 +1,2 @@
 # autobuild
-Automated PGKBUILD
+Automated PKGBUILDER

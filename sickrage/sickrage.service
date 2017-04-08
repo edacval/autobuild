@@ -1,0 +1,12 @@
+[Unit]
+Description=SickRage Daemon
+After=network.target
+
+[Service]
+Restart=on-success
+User=1000
+Group=1000
+ExecStart=/usr/bin/python2 /opt/sickrage/code/SickBeard.py -q --nolaunch --datadir /opt/sickrage/data
+
+[Install]
+WantedBy=multi-user.target
