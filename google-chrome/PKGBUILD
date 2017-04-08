@@ -9,10 +9,10 @@ depends=('alsa-lib' 'gconf' 'gtk2' 'libxss' 'libxtst' 'nss' 'ttf-liberation')
 options=('!emptydirs' '!strip')
 install="${pkgname}.install"
 source=("google-chrome-stable_${pkgver}_amd64.deb::https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
-        "$url/browser/privacy/eula_text.html"
+        "LICENSE.md"
         'google-chrome-stable.sh')
 md5sums=('52a4341475511d3627a86a344c0831ce'
-         'd50d8f0a6940791eabc41c4f64e6a3cf'
+         '786c5e5f40d7ab261bae38baad03f674'
          '99fa93d5e7fb5d622cef0f9621f3ffa3')
 
 package() {
@@ -21,7 +21,7 @@ package() {
 
   install -D -m755 google-chrome-stable.sh "$pkgdir"/usr/bin/google-chrome-stable
   install -D -m644 "$pkgdir"/opt/google/chrome/product_logo_256.png "$pkgdir"/usr/share/pixmaps/google-chrome.png
-  install -D -m644 eula_text.html "$pkgdir"/usr/share/licenses/google-chrome/eula_text.html
+  install -D -m644 LICENSE.md "$pkgdir"/usr/share/licenses/google-chrome/LICENSE
 
   sed -i "/Exec=/i\StartupWMClass=Google-chrome" "$pkgdir"/usr/share/applications/google-chrome.desktop
 
