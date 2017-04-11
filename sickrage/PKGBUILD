@@ -1,26 +1,32 @@
 pkgname=sickrage
-pkgver=2017.04.03.1
-_pkgver=2017.04.03-1
+commit=4b3dad8eec3e238b1cadc809acf8e0e26deb9eb3
+pkgver=20170403
 pkgrel=1
 pkgdesc='Automatic torrent/nzb video library manager for TV shows'
 arch=('any')
 url="https://github.com/SickRage/SickRage"
 license=('GPL3')
 depends=('python2-lxml' 'python2-mako' 'python2-cheetah' 'python2-lockfile' 'python2-notify' 'python2-pyopenssl' 'unrar')
+makedepends=('git')
 provides=('sickrage')
 options=('!strip')
 install='sickrage.install'
-source=("sickrage-$_pkgver.tar.gz::https://github.com/SickRage/SickRage/archive/v$_pkgver.tar.gz"
-        'sickrage.service' 'sickrage.tmpfile' 'sickrage.install')
-md5sums=('6f138f40aa9d638f7b87dc7d8829f66b'
-         '0a706073e5f265812d554ede58521221'
-         '2b8179ea3cd5406e19eeabf0eecedcd1'
-         '0d8c3794370d63cd8981e9d5ae9ddad1')
+source=("sickrage::git://github.com/SickRage/SickRage.git"
+'sickrage.service' 'sickrage.tmpfile' 'sickrage.install')
+md5sums=('SKIP'
+  '0a706073e5f265812d554ede58521221'
+  '2b8179ea3cd5406e19eeabf0eecedcd1'
+'0d8c3794370d63cd8981e9d5ae9ddad1')
+
+pkgver() {
+  cd ${pkgname}
+  git log -1 --format="%cd" --date=short | sed 's|-||g'
+}
 
 package() {
   install -d -m755 "$pkgdir"/opt/sickrage/{code,data}
 
-  cp -rp SickRage-$_pkgver/* "$pkgdir"/opt/sickrage/code
+  cp -rp sickrage/* "$pkgdir"/opt/sickrage/code
 
   install -D -m644 sickrage.service "$pkgdir"/usr/lib/systemd/system/sickrage.service
   install -D -m644 sickrage.tmpfile "$pkgdir"/usr/lib/tmpfiles.d/sickrage.conf

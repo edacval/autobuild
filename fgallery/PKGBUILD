@@ -1,0 +1,45 @@
+# Contributor: Baptiste Jonglez <archlinux@bitsofnetworks.org>
+# Maintainer:  Tjaart van der Walt <archlinux@tjaart.co.za>
+
+pkgname=fgallery
+commit=759479d45761beef5794c4f1b167c7d7124c2982
+pkgver=1.8.2.20170402
+pkgrel=1
+arch=('any')
+pkgdesc='a modern, minimalist javascript photo gallery'
+url='https://www.thregr.org/~wavexx/software/fgallery/'
+license=('GPL2')
+depends=('fbida' 'imagemagick' 'lcms' 'perl>=5.14' 'perl-json' 'perl-image-exiftool' 'zip')
+makedepends=('git')
+optdepends=('facedetect-git: to center thumbnails on subject face'
+    'jpegoptim: to optimize JPEG files'
+    'p7zip: for faster compression'
+    'pngcrush: to optimize PNG files'
+    'python-pyqt4: to use fcaption')
+source=("git://github.com/wavexx/fgallery.git")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd ${pkgname}
+  echo -n "1.8.2.";git log -1 --format="%cd" --date=short | sed 's|-||g'
+}
+
+package() {
+  cd "${pkgname}"
+
+  # Data files
+  install -d "${pkgdir}/usr/share/fgallery"
+  cp -r view/ "${pkgdir}/usr/share/fgallery/"
+
+  # Binaries
+  install -m755 "fgallery" "${pkgdir}/usr/share/fgallery/fgallery"
+  install -d "${pkgdir}/usr/bin"
+  ln -s "/usr/share/fgallery/fgallery" "${pkgdir}/usr/bin/fgallery"
+  install -m755 "utils/fcaption" "${pkgdir}/usr/bin/fcaption"
+
+  # Desktop file
+  install -Dm644 "utils/fcaption.desktop" "${pkgdir}/usr/share/applications/fcaption.desktop"
+
+  # Man page
+  install -Dm 644 "fgallery.1" "${pkgdir}/usr/share/man/man1/fgallery.1"
+}
