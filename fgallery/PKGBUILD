@@ -1,9 +1,6 @@
-# Contributor: Baptiste Jonglez <archlinux@bitsofnetworks.org>
-# Maintainer:  Tjaart van der Walt <archlinux@tjaart.co.za>
-
+_commit="759479d45761beef5794c4f1b167c7d7124c2982"
 pkgname=fgallery
-commit=759479d45761beef5794c4f1b167c7d7124c2982
-pkgver=1.8.2.20170402
+pkgver=20170402
 pkgrel=1
 arch=('any')
 pkgdesc='a modern, minimalist javascript photo gallery'
@@ -21,7 +18,7 @@ sha256sums=('SKIP')
 
 pkgver() {
   cd ${pkgname}
-  echo -n "1.8.2.";git log -1 --format="%cd" --date=short | sed 's|-||g'
+  git log -1 --format="%cd" --date=short | sed 's|-||g'
 }
 
 package() {

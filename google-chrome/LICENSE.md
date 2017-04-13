@@ -1,9 +1,8 @@
-
 Google Chrome Terms of Service
 
-These Terms of Service apply to the executable code version of Google Chrome. Source code for Google Chrome is available free of charge under open source software license agreements at http://code.google.com/chromium/terms.html.
+These Terms of Service apply to the executable code version of Google Chrome. Source code for Google Chrome is available free of charge under open source software license agreements at <http://code.google.com/chromium/terms.html>.
 
-1. Your relationship with Google
+1.  Your relationship with Google
 
 1.1 Your use of Google’s products, software, services and web sites (referred to collectively as the “Services” in this document and excluding any services provided to you by Google under a separate written agreement) is subject to the terms of a legal agreement between you and Google. “Google” means Google Inc., whose principal place of business is at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States. This document explains how the agreement is made up, and sets out some of the terms of that agreement.
 
@@ -15,7 +14,7 @@ These Terms of Service apply to the executable code version of Google Chrome. So
 
 1.5 If there is any contradiction between what the Additional Terms say and what the Universal Terms say, then the Additional Terms shall take precedence in relation to that Service.
 
-2. Accepting the Terms
+2.  Accepting the Terms
 
 2.1 In order to use the Services, you must first agree to the Terms. You may not use the Services if you do not accept the Terms.
 
@@ -25,13 +24,13 @@ These Terms of Service apply to the executable code version of Google Chrome. So
 
 (B) by actually using the Services. In this case, you understand and agree that Google will treat your use of the Services as acceptance of the Terms from that point onwards.
 
-3. Language of the Terms
+3.  Language of the Terms
 
 3.1 Where Google has provided you with a translation of the English language version of the Terms, then you agree that the translation is provided for your convenience only and that the English language versions of the Terms will govern your relationship with Google.
 
 3.2 If there is any contradiction between what the English language version of the Terms says and what a translation says, then the English language version shall take precedence.
 
-4. Provision of the Services by Google
+4.  Provision of the Services by Google
 
 4.1 Google has subsidiaries and affiliated legal entities around the world (“Subsidiaries and Affiliates”). Sometimes, these companies will be providing the Services to you on behalf of Google itself. You acknowledge and agree that Subsidiaries and Affiliates will be entitled to provide the Services to you.
 
@@ -41,7 +40,7 @@ These Terms of Service apply to the executable code version of Google Chrome. So
 
 4.4 You acknowledge and agree that if Google disables access to your account, you may be prevented from accessing the Services, your account details or any files or other content which is contained in your account.
 
-5. Use of the Services by you
+5.  Use of the Services by you
 
 5.1 You agree to use the Services only for purposes that are permitted by (a) the Terms and (b) any applicable law, regulation or generally accepted practices or guidelines in the relevant jurisdictions (including any laws regarding the export of data or software to and from the United States or other relevant countries).
 
@@ -51,31 +50,31 @@ These Terms of Service apply to the executable code version of Google Chrome. So
 
 5.4 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any breach of your obligations under the Terms and for the consequences (including any loss or damage which Google may suffer) of any such breach.
 
-6. Privacy and your personal information
+6.  Privacy and your personal information
 
-6.1 For information about Google’s data protection practices, please read Google’s privacy policy at http://www.google.com/privacy.html and at http://www.google.com/chrome/intl/en/privacy.html. This policy explains how Google treats your personal information, and protects your privacy, when you use the Services.
+6.1 For information about Google’s data protection practices, please read Google’s privacy policy at <http://www.google.com/privacy.html> and at <http://www.google.com/chrome/intl/en/privacy.html>. This policy explains how Google treats your personal information, and protects your privacy, when you use the Services.
 
 6.2 You agree to the use of your data in accordance with Google’s privacy policies.
 
-7. Content in the Services
+7.  Content in the Services
 
 7.1 You understand that all information (such as data files, written text, computer software, music, audio files or other sounds, photographs, videos or other images) which you may have access to as part of, or through your use of, the Services are the sole responsibility of the person from which such content originated. All such information is referred to below as the “Content.”
 
 7.2 You should be aware that Content presented to you as part of the Services, including but not limited to advertisements in the Services and sponsored Content within the Services may be protected by intellectual property rights which are owned by the sponsors or advertisers who provide that Content to Google (or by other persons or companies on their behalf). You may not modify, rent, lease, loan, sell, distribute or create derivative works based on this Content (either in whole or in part) unless you have been specifically told that you may do so by Google or by the owners of that Content, in a separate agreement.
 
-7.3 Google reserves the right (but shall have no obligation) to pre-screen, review, flag, filter, modify, refuse or remove any or all Content from any Service. For some of the Services, Google may provide tools to filter out explicit sexual content. These tools include the SafeSearch preference settings (see https://support.google.com/websearch/answer/510?hl=en). In addition, there are commercially available services and software to limit access to material that you may find objectionable.
+7.3 Google reserves the right (but shall have no obligation) to pre-screen, review, flag, filter, modify, refuse or remove any or all Content from any Service. For some of the Services, Google may provide tools to filter out explicit sexual content. These tools include the SafeSearch preference settings (see <https://support.google.com/websearch/answer/510?hl=en>). In addition, there are commercially available services and software to limit access to material that you may find objectionable.
 
 7.4 You understand that by using the Services you may be exposed to Content that you may find offensive, indecent or objectionable and that, in this respect, you use the Services at your own risk.
 
 7.5 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any Content that you create, transmit or display while using the Services and for the consequences of your actions (including any loss or damage which Google may suffer) by doing so.
 
-8. Proprietary rights
+8.  Proprietary rights
 
 8.1 You acknowledge and agree that Google (or Google’s licensors) own all legal right, title and interest in and to the Services, including any intellectual property rights which subsist in the Services (whether those rights happen to be registered or not, and wherever in the world those rights may exist).
 
 8.2 Unless you have agreed otherwise in writing with Google, nothing in the Terms gives you a right to use any of Google’s trade names, trade marks, service marks, logos, domain names, and other distinctive brand features.
 
-8.3 If you have been given an explicit right to use any of these brand features in a separate written agreement with Google, then you agree that your use of such features shall be in compliance with that agreement, any applicable provisions of the Terms, and Google's brand feature use guidelines as updated from time to time. These guidelines can be viewed online at http://www.google.com/permissions/guidelines.html (or such other URL as Google may provide for this purpose from time to time).
+8.3 If you have been given an explicit right to use any of these brand features in a separate written agreement with Google, then you agree that your use of such features shall be in compliance with that agreement, any applicable provisions of the Terms, and Google's brand feature use guidelines as updated from time to time. These guidelines can be viewed online at <http://www.google.com/permissions/guidelines.html> (or such other URL as Google may provide for this purpose from time to time).
 
 8.4 Google acknowledges and agrees that it obtains no right, title or interest from you (or your licensors) under these Terms in or to any Content that you submit, post, transmit or display on, or through, the Services, including any intellectual property rights which subsist in that Content (whether those rights happen to be registered or not, and wherever in the world those rights may exist). Unless you have agreed otherwise in writing with Google, you agree that you are responsible for protecting and enforcing those rights and that Google has no obligation to do so on your behalf.
 
@@ -83,7 +82,7 @@ These Terms of Service apply to the executable code version of Google Chrome. So
 
 8.6 Unless you have been expressly authorized to do so in writing by Google, you agree that in using the Services, you will not use any trade mark, service mark, trade name, logo of any company or organization in a way that is likely or intended to cause confusion about the owner or authorized user of such marks, names or logos.
 
-9. License from Google
+9.  License from Google
 
 9.1 Google gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software provided to you by Google as part of the Services as provided to you by Google (referred to as the “Software” below). This license is for the sole purpose of enabling you to use and enjoy the benefit of the Services as provided by Google, in the manner permitted by the Terms.
 
@@ -163,9 +162,9 @@ These Terms of Service apply to the executable code version of Google Chrome. So
 
 15. Copyright and trade mark policies
 
-15.1 It is Google’s policy to respond to notices of alleged copyright infringement that comply with applicable international intellectual property law (including, in the United States, the Digital Millennium Copyright Act) and to terminating the accounts of repeat infringers. Details of Google’s policy can be found at http://www.google.com/dmca.html.
+15.1 It is Google’s policy to respond to notices of alleged copyright infringement that comply with applicable international intellectual property law (including, in the United States, the Digital Millennium Copyright Act) and to terminating the accounts of repeat infringers. Details of Google’s policy can be found at <http://www.google.com/dmca.html>.
 
-15.2 Google operates a trade mark complaints procedure in respect of Google’s advertising business, details of which can be found at http://www.google.com/tm_complaint.html.
+15.2 Google operates a trade mark complaints procedure in respect of Google’s advertising business, details of which can be found at <http://www.google.com/tm_complaint.html>.
 
 16. Advertisements
 
@@ -185,7 +184,7 @@ These Terms of Service apply to the executable code version of Google Chrome. So
 
 18. Changes to the Terms
 
-18.1 Google may make changes to the Universal Terms or Additional Terms from time to time. When these changes are made, Google will make a new copy of the Universal Terms available at http://www.google.com/chrome/intl/en/eula_text.html and any new Additional Terms will be made available to you from within, or through, the affected Services.
+18.1 Google may make changes to the Universal Terms or Additional Terms from time to time. When these changes are made, Google will make a new copy of the Universal Terms available at <http://www.google.com/chrome/intl/en/eula_text.html> and any new Additional Terms will be made available to you from within, or through, the affected Services.
 
 18.2 You understand and agree that if you use the Services after the date on which the Universal Terms or Additional Terms have changed, Google will treat your use as acceptance of the updated Universal Terms or Additional Terms.
 
@@ -221,18 +220,17 @@ These Terms of Service apply to the executable code version of Google Chrome. So
 
 August 12, 2010
 
-
 Google Chrome Additional Terms of Service
 
 MPEGLA
 
-THIS PRODUCT IS LICENSED UNDER THE AVC PATENT PORTFOLIO LICENSE FOR THE PERSONAL AND NON-COMMERCIAL USE OF A CONSUMER TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE AVC STANDARD ( “AVC VIDEO”) AND/OR (ii) DECODE AVC VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL AND NON-COMMERCIAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PARTNER LICENSED TO PROVIDE AVC VIDEO. NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE HTTP://WWW.MPEGLA.COM.
+THIS PRODUCT IS LICENSED UNDER THE AVC PATENT PORTFOLIO LICENSE FOR THE PERSONAL AND NON-COMMERCIAL USE OF A CONSUMER TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE AVC STANDARD ( “AVC VIDEO”) AND/OR (ii) DECODE AVC VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL AND NON-COMMERCIAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PARTNER LICENSED TO PROVIDE AVC VIDEO. NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE HTTP&#x3A;//WWW.MPEGLA.COM.
 
 Adobe
 
 Google Chrome may include one or more components provided by Adobe Systems Incorporated and Adobe Software Ireland Limited (collectively “Adobe”). Your use of the Adobe software as provided by Google (“Adobe Software”) is subject to the following additional terms (the “Adobe Terms”). You, the entity receiving the Adobe Software, will be hereinafter referred to as “Sublicensee.”
 
-1. License Restrictions.
+1.  License Restrictions.
 
 (a) Flash Player, Version 10.x is designed only as a browser plug-in. Sublicensee may not modify or distribute this Adobe Software for use as anything but a browser plug-in for playing back content on a web page. For example, Sublicensee will not modify this Adobe Software in order to allow interoperation with applications that run outside of the browser (e.g., standalone applications, widgets, device UI).
 
@@ -244,25 +242,25 @@ Google Chrome may include one or more components provided by Adobe Systems Incor
 
 (e) The Chrome-Reader Software may not, other than as explicitly permitted by the technical specifications, disable any capabilities provided by Adobe in the Adobe Software, including but not limited to, support for PDF and EPUB formats and Adobe DRM.
 
-2. Electronic Transmission. Sublicensee may allow the download of the Adobe Software from a web site, the Internet, an intranet, or similar technology (an, “Electronic Transmissions”) provided that Sublicensee agrees that any distributions of the Adobe Software by Sublicensee, including those on CD-ROM, DVD-ROM or other storage media and Electronic Transmissions, if expressly permitted, shall be subject to reasonable security measures to prevent unauthorized use. With relation to Electronic Transmissions approved hereunder, Sublicensee agrees to employ any reasonable use restrictions set by Adobe, including those related to security and/or the restriction of distribution to end users of the Sublicensee Product.
+2.  Electronic Transmission. Sublicensee may allow the download of the Adobe Software from a web site, the Internet, an intranet, or similar technology (an, “Electronic Transmissions”) provided that Sublicensee agrees that any distributions of the Adobe Software by Sublicensee, including those on CD-ROM, DVD-ROM or other storage media and Electronic Transmissions, if expressly permitted, shall be subject to reasonable security measures to prevent unauthorized use. With relation to Electronic Transmissions approved hereunder, Sublicensee agrees to employ any reasonable use restrictions set by Adobe, including those related to security and/or the restriction of distribution to end users of the Sublicensee Product.
 
-3. EULA and Distribution Terms.
+3.  EULA and Distribution Terms.
 
 (a) Sublicensee shall ensure that the Adobe Software is distributed to end users under an enforceable end user license agreement, in favor of Sublicensee and its suppliers containing at least each of the following minimum terms (the “End-User License”): (i) a prohibition against distribution and copying, (ii) a prohibition against modifications and derivative works, (iii) a prohibition against decompiling, reverse engineering, disassembling, and otherwise reducing the Adobe Software to a human-perceivable form, (iv) a provision indicating ownership of Sublicensee Product (as defined in Section 8) by Sublicensee and its licensors, (v) a disclaimer of indirect, special, incidental, punitive, and consequential damages, and (vi) other industry standard disclaimers and limitations, including, as applicable: a disclaimer of all applicable statutory warranties, to the full extent allowed by law.
 
 (b) Sublicensee shall ensure that the Adobe Software is distributed to Sublicensee’s distributors under an enforceable distribution license agreement, in favor of Sublicensee and its suppliers containing terms as protective of Adobe as the Adobe Terms.
 
-4. Opensource. Sublicensee will not directly or indirectly grant, or purport to grant, to any third party any rights or immunities under Adobe’s intellectual property or proprietary rights that will subject such intellectual property to an open source license or scheme in which there is or could be interpreted to be a requirement that as a condition of use, modification and/or distribution, the Adobe Software be: (i) disclosed or distributed in source code form; (ii) licensed for the purpose of making derivative works; or (iii) redistributable at no charge. For clarification purposes, the foregoing restriction does not preclude Sublicensee from distributing, and Sublicensee will distribute the Adobe Software as bundled with the Google Software, without charge.
+4.  Opensource. Sublicensee will not directly or indirectly grant, or purport to grant, to any third party any rights or immunities under Adobe’s intellectual property or proprietary rights that will subject such intellectual property to an open source license or scheme in which there is or could be interpreted to be a requirement that as a condition of use, modification and/or distribution, the Adobe Software be: (i) disclosed or distributed in source code form; (ii) licensed for the purpose of making derivative works; or (iii) redistributable at no charge. For clarification purposes, the foregoing restriction does not preclude Sublicensee from distributing, and Sublicensee will distribute the Adobe Software as bundled with the Google Software, without charge.
 
-5. Additional Terms. With respect to any update, upgrade, new versions of the Adobe Software (collectively “Upgrades”) provided to Sublicenses, Adobe reserves the right to require additional terms and conditions applicable solely to the Upgrade and future versions thereof, and solely to the extent that such restrictions are imposed by Adobe on all licensees of such Upgrade. If Sublicensee does not agree to such additional terms or conditions, Sublicensee will have no license rights with respect to such Upgrade, and Sublicensee’s license rights with respect to the Adobe Software will terminate automatically on the 90th day from the date such additional terms are made available to Sublicensee.
+5.  Additional Terms. With respect to any update, upgrade, new versions of the Adobe Software (collectively “Upgrades”) provided to Sublicenses, Adobe reserves the right to require additional terms and conditions applicable solely to the Upgrade and future versions thereof, and solely to the extent that such restrictions are imposed by Adobe on all licensees of such Upgrade. If Sublicensee does not agree to such additional terms or conditions, Sublicensee will have no license rights with respect to such Upgrade, and Sublicensee’s license rights with respect to the Adobe Software will terminate automatically on the 90th day from the date such additional terms are made available to Sublicensee.
 
-6. Proprietary Rights Notices. Sublicensee shall not, and shall require its distributors not to, delete or in any manner alter the copyright notices, trademarks, logos or related notices, or other proprietary rights notices of Adobe (and its licensors, if any) appearing on or within the Adobe Software or accompanying materials.
+6.  Proprietary Rights Notices. Sublicensee shall not, and shall require its distributors not to, delete or in any manner alter the copyright notices, trademarks, logos or related notices, or other proprietary rights notices of Adobe (and its licensors, if any) appearing on or within the Adobe Software or accompanying materials.
 
-7. Technical Requirements. Sublicensee and its distributors may only distribute Adobe Software and/or Upgrade on devices that (i) meet the technical specifications posted on http://www.adobe.com/mobile/licensees, (or a successor web site thereto), and (ii) has been verified by Adobe as set forth below.
+7.  Technical Requirements. Sublicensee and its distributors may only distribute Adobe Software and/or Upgrade on devices that (i) meet the technical specifications posted on <http://www.adobe.com/mobile/licensees>, (or a successor web site thereto), and (ii) has been verified by Adobe as set forth below.
 
-8. Verification and Update. Sublicensee must submit to Adobe each Sublicensee product (and each version thereof) containing the Adobe Software and/or Upgrade (“Sublicensee Product”) that do not meet the Device Verification exemption criteria to be communicated by Google, for Adobe to verify. Sublicensee shall pay for each submission made by Sublicensee by procuring verification packages at Adobe’s then-current terms set forth at http://flashmobile.adobe.com/. Sublicensee Product that has not passed verification may not be distributed. Verification will be accomplished in accordance with Adobe’s then-current process described at http://flashmobile.adobe.com/ (“Verification”).
+8.  Verification and Update. Sublicensee must submit to Adobe each Sublicensee product (and each version thereof) containing the Adobe Software and/or Upgrade (“Sublicensee Product”) that do not meet the Device Verification exemption criteria to be communicated by Google, for Adobe to verify. Sublicensee shall pay for each submission made by Sublicensee by procuring verification packages at Adobe’s then-current terms set forth at <http://flashmobile.adobe.com/>. Sublicensee Product that has not passed verification may not be distributed. Verification will be accomplished in accordance with Adobe’s then-current process described at <http://flashmobile.adobe.com/> (“Verification”).
 
-9. Profiles and Device Central. Sublicensee will be prompted to enter certain profile information about the Sublicensee Products either as part of the Verification process or some other method, and Sublicensee will provide such information, to Adobe. Adobe may (i) use such profile information as reasonably necessary to verify the Sublicensee Product (if such product is subject to Verification), and (ii) display such profile information in “Adobe Device Intelligence system,” located at https://devices.adobe.com/partnerportal/, and made available through Adobe’s authoring and development tools and services to enable developers and end users to see how content or applications are displayed in Sublicensee Products (e.g. how video images appear in certain phones).
+9.  Profiles and Device Central. Sublicensee will be prompted to enter certain profile information about the Sublicensee Products either as part of the Verification process or some other method, and Sublicensee will provide such information, to Adobe. Adobe may (i) use such profile information as reasonably necessary to verify the Sublicensee Product (if such product is subject to Verification), and (ii) display such profile information in “Adobe Device Intelligence system,” located at <https://devices.adobe.com/partnerportal/>, and made available through Adobe’s authoring and development tools and services to enable developers and end users to see how content or applications are displayed in Sublicensee Products (e.g. how video images appear in certain phones).
 
 10. Export. Sublicensee acknowledges that the laws and regulations of the United States restrict the export and re-export of commodities and technical data of United States origin, which may include the Adobe Software. Sublicensee agrees that it will not export or re-export the Adobe Software, without the appropriate United States and foreign governmental clearances, if any.
 
@@ -274,7 +272,7 @@ Google Chrome may include one or more components provided by Adobe Systems Incor
 
 (c) The Source Code may be provided with an AAC codec and/or HE-AAC codec (“the AAC Codec”). Use of the AAC Codec is conditioned on Sublicensee obtaining a proper patent license covering necessary patents as provided by VIA Licensing, for end products on or in which the AAC Codec will be used. Sublicensee acknowledges and agrees that Adobe is not providing a patent license for an AAC Codec under this Agreement to Sublicensee or its sublicensees.
 
-(d) THE SOURCE CODE MAY CONTAIN CODE LICENSED UNDER THE AVC PATENT PORTFOLIO LICENSE FOR THE PERSONAL NON-COMMERCIAL USE OF A CONSUMER TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE AVC STANDARD ("AVC VIDEO") AND/OR (ii) DECODE AVC VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL NON-COMMERCIAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE AVC VIDEO. NO LICENSE IS GRANTED OR WILL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. See http://www.mpegla.com
+(d) THE SOURCE CODE MAY CONTAIN CODE LICENSED UNDER THE AVC PATENT PORTFOLIO LICENSE FOR THE PERSONAL NON-COMMERCIAL USE OF A CONSUMER TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE AVC STANDARD ("AVC VIDEO") AND/OR (ii) DECODE AVC VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL NON-COMMERCIAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE AVC VIDEO. NO LICENSE IS GRANTED OR WILL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. See <http://www.mpegla.com>
 
 12. Update. Sublicensee will not circumvent Google’s or Adobe’s efforts to update the Adobe Software in all Sublicensee’s products incorporating the Adobe Software as bundled with the Google Software (“Sublicensee Products”).
 
@@ -288,7 +286,7 @@ Google Chrome may include one or more components provided by Adobe Systems Incor
 
 (a) Definitions.
 
-“Compliance and Robustness Rules” means the document setting forth compliance and robustness rules for the Adobe Software located at http://www.adobe.com/mobile/licensees, or a successor web site thereto.
+“Compliance and Robustness Rules” means the document setting forth compliance and robustness rules for the Adobe Software located at <http://www.adobe.com/mobile/licensees>, or a successor web site thereto.
 
 “Content Protection Functions” means those aspects of the Adobe Software that are designed to ensure compliance with the Compliance and Robustness Rules, and to prevent playback, copying, modification, redistribution or other actions with respect to digital content distributed for consumption by users of the Adobe Software when such actions are not authorized by the owners of such digital content or its licensed distributors.
 

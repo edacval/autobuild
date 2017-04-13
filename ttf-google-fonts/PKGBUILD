@@ -1,6 +1,6 @@
+_commit="6c7a5d3caaf447a87f8743d70bfcb2737f912ad0"
 pkgname=ttf-google-fonts
-pkgver=2017.04.04
-commit=6c7a5d3caaf447a87f8743d70bfcb2737f912ad0
+pkgver=20170404
 pkgrel=1
 pkgdesc="TrueType fonts from the Google Fonts project (git version)"
 arch=('any')
@@ -70,7 +70,7 @@ sha256sums=('SKIP')
 
 pkgver() {
     cd $pkgname
-    git log -1 --format="%cd" --date=short | sed 's|-|.|g'
+    git log -1 --format="%cd" --date=short | sed 's|-||g'
 }
 
 package() {

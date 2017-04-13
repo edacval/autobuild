@@ -1,5 +1,5 @@
+_commit="4b3dad8eec3e238b1cadc809acf8e0e26deb9eb3"
 pkgname=sickrage
-commit=4b3dad8eec3e238b1cadc809acf8e0e26deb9eb3
 pkgver=20170403
 pkgrel=1
 pkgdesc='Automatic torrent/nzb video library manager for TV shows'
@@ -11,12 +11,12 @@ makedepends=('git')
 provides=('sickrage')
 options=('!strip')
 install='sickrage.install'
-source=("sickrage::git://github.com/SickRage/SickRage.git"
-'sickrage.service' 'sickrage.tmpfile' 'sickrage.install')
-md5sums=('SKIP'
-  '0a706073e5f265812d554ede58521221'
-  '2b8179ea3cd5406e19eeabf0eecedcd1'
-'0d8c3794370d63cd8981e9d5ae9ddad1')
+source=("${pkgname}::git://github.com/SickRage/SickRage.git"
+        'sickrage.service' 'sickrage.tmpfile' 'sickrage.install')
+sha256sums=('SKIP'
+            '59b128f991b71e7c5ce1d10fd7d495e4c2ad10d994d50ea7dbd0bcffeb79a99f'
+            'b9c990194d45346217e780b3033ace7c04f17b7895c53b06c2e93d60af7b777a'
+            '3327d9e857ba648a4a90a3482e7b08b55c5cb879c0e7441598f80a18e7e2a2cc')
 
 pkgver() {
   cd ${pkgname}

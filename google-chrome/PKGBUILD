@@ -1,5 +1,5 @@
 pkgname=google-chrome
-pkgver=57.0.2987.133
+pkgver="57.0.2987.133"
 pkgrel=1
 pkgdesc="An attempt at creating a safer, faster, and more stable browser (Stable Channel)"
 arch=('x86_64')
@@ -11,9 +11,9 @@ install="${pkgname}.install"
 source=("google-chrome-stable_${pkgver}_amd64.deb::https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
         "LICENSE.md"
         'google-chrome-stable.sh')
-md5sums=('52a4341475511d3627a86a344c0831ce'
-         '786c5e5f40d7ab261bae38baad03f674'
-         '99fa93d5e7fb5d622cef0f9621f3ffa3')
+sha256sums=('4a62a77b3c7960f9313d41a40f645b7178d6a8b91f9f1141d7664026692ef63d'
+            '212dfb357426087000e45ff726f651188776758e0d3b7f48341f796f994b1f48'
+            '58e65f197d141707546c784c69e3818a1c18212d14148565d71ad9b85525a0d6')
 
 package() {
   bsdtar -xf data.tar.xz -C "$pkgdir/"

@@ -1,5 +1,5 @@
 pkgname=meteor-js
-pkgver=1.4.4.1
+pkgver="1.4.4.1"
 pkgrel=1
 pkgdesc="Meteor is a full-stack JavaScript platform for developing modern web and mobile applications"
 arch=('x86_64')
@@ -7,7 +7,7 @@ url="https://github.com/meteor/meteor"
 license=('MIT')
 depends=('nodejs' 'mongodb')
 options=('!strip')
-source=("https://meteorinstall-4168.kxcdn.com/packages-bootstrap/$pkgver/meteor-bootstrap-os.linux.$arch.tar.gz")
+source=("meteor-bootstrap-os.linux.$pkgver.$arch.tar.gz::https://meteorinstall-4168.kxcdn.com/packages-bootstrap/$pkgver/meteor-bootstrap-os.linux.$arch.tar.gz")
 sha256sums=('028f2ff188c6cae7b98654ef60c17a873fd213b62ef044fee124539de1e5ea9f')
 
 package() {
