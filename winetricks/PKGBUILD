@@ -1,5 +1,5 @@
+_commit="4bae98d9404e551da9755a3ba5dbb64f2f76741a"
 pkgname=winetricks
-commit=4bae98d9404e551da9755a3ba5dbb64f2f76741a
 pkgver=20170411
 pkgrel=1
 pkgdesc='Script to install various redistributable runtime libraries in Wine.'
