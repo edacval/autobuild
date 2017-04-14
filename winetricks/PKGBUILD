@@ -1,6 +1,6 @@
-_commit="4bae98d9404e551da9755a3ba5dbb64f2f76741a"
+_commit="e5e5ed5b0319896af04e127c0d392cefe031c59b"
 pkgname=winetricks
-pkgver=20170411
+pkgver=20170414
 pkgrel=1
 pkgdesc='Script to install various redistributable runtime libraries in Wine.'
 url='http://wiki.winehq.org/winetricks'
