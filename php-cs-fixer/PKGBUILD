@@ -1,0 +1,23 @@
+pkgname=php-cs-fixer
+pkgver="2.2.1"
+pkgrel=1
+pkgdesc="Analyzes some PHP source code and tries to fix coding standards issues (PSR-1 and PSR-2 compatible)."
+url="http://cs.sensiolabs.org/"
+license=('MIT')
+arch=('any')
+depends=('php')
+makedepends=('php-box' 'php-composer' 'git')
+source=("${pkgname}::git+https://github.com/FriendsOfPHP/PHP-CS-Fixer#tag=v${pkgver}")
+sha256sums=('SKIP')
+
+build() {
+  cd $pkgname
+  php /usr/bin/composer install --prefer-dist --no-dev
+  php -d phar.readonly=Off /usr/bin/php-box build
+}
+
+package() {
+  cd $pkgname
+  install -D -m644 "LICENSE" "${pkgdir}/usr/share/licenses/php-cs-fixer/LICENSE"
+  install -D -m755 "php-cs-fixer.phar" "${pkgdir}/usr/bin/php-cs-fixer"
+}

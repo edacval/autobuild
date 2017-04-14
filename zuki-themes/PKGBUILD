@@ -1,5 +1,5 @@
 pkgname=zuki-themes
-pkgver="3.22.1"
+pkgver="3.22.2"
 pkgrel=1
 pkgdesc="A selection of themes for GNOME, Xfce and more (includes Zukitwo and Zukitre)."
 arch=('any')
