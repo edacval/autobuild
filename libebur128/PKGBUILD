@@ -1,0 +1,37 @@
+# $Id$
+# Maintainer: BoosterDEV <booster DOT devel AT gmail DOT com>
+
+pkgname="libebur128"
+gitver="v1.2.2"
+pkgver="1.2.2"
+pkgrel=1
+pkgdesc="A library that implements the EBU R 128 standard for loudness normalisation."
+arch=("x86_64")
+url="https://github.com/jiixyj/libebur128"
+license=("MIT")
+depends=('speex')
+makedepends=('git' 'cmake')
+source=("${pkgname}::git+$url#tag=${gitver}")
+sha256sums=('SKIP')
+
+prepare() {
+  cd "$pkgname"
+  [[ -d build ]] && rm -rf build
+  mkdir build
+}
+
+build () {
+  cd "$pkgname"
+  cd build
+  cmake .. \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_INSTALL_PREFIX=/usr \
+  -DCMAKE_INSTALL_LIBDIR=lib
+  make
+}
+
+package () {
+  cd "$pkgname"
+  cd build
+  make DESTDIR="$pkgdir" install
+}
