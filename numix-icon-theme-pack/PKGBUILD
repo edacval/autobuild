@@ -1,6 +1,6 @@
-_commit="d2e50382df394d9d4140f47a948e124e892d42d8"
+_commit="3393871580efb0fb0b92e7e48ea790ed248f9b04"
 pkgname=numix-icon-theme-pack
-pkgver=20170412
+pkgver=20170413
 pkgrel=1
 pkgdesc='Numix project Icon Themes - Updated with Numix Core'
 arch=('any')
