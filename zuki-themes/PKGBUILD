@@ -1,4 +1,5 @@
 pkgname=zuki-themes
+gitver="v3.22-1"
 pkgver="3.22.1"
 pkgrel=1
 pkgdesc="A selection of themes for GNOME, Xfce and more (includes Zukitwo and Zukitre)."
@@ -6,12 +7,13 @@ arch=('any')
 url="https://github.com/lassekongo83/zuki-themes"
 license=('GPL3')
 depends=('gtk-engine-murrine' 'gtk-engines' 'ttf-roboto')
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/lassekongo83/zuki-themes/archive/v3.22-1.tar.gz")
-sha256sums=('4dff864c7abe51cf2d882aab32c8a8e7f5fb5ed77762f5e00932b32b85b9cc47')
+makedepends=('git')
+source=("${pkgname}::git+$url#tag=${gitver}")
+md5sums=('SKIP')
 
 package() {
   install -d -m755 "$pkgdir"/usr/share/{themes,licenses/$pkgname}
-  cd "$pkgname-3.22-1"
+  cd "$pkgname"
   cp -rp Zuki* "$pkgdir"/usr/share/themes
   install -D -m644 LICENSE "$pkgdir"/usr/share/licenses/${pkgname}/
 }

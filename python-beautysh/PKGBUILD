@@ -1,0 +1,16 @@
+pkgname=python-beautysh
+gitver="3.1"
+pkgver="3.1"
+pkgrel=1
+pkgdesc="A Bash beautifier for the masses."
+arch=("any")
+url="https://github.com/bemeurer/beautysh"
+license=("GPL3")
+makedepends=('python-setuptools' 'git')
+source=("${pkgname}::git+$url#tag=${gitver}")
+md5sums=('SKIP')
+
+package () {
+  cd "${pkgname}"
+  python setup.py install --prefix="/usr" --root="$pkgdir" --optimize="1"
+}
