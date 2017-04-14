@@ -1,6 +1,6 @@
-_commit="4b3dad8eec3e238b1cadc809acf8e0e26deb9eb3"
+_commit="1d28b358576b35b101bb0f662858ae5296d2ef8b"
 pkgname=sickrage
-pkgver=20170403
+pkgver=20170414
 pkgrel=1
 pkgdesc='Automatic torrent/nzb video library manager for TV shows'
 arch=('any')
